@@ -1,0 +1,40 @@
+
+nav{
+   display:flex;
+   justify-content: space-between;
+   margin-right:50px;
+   align-items: center;
+   text-align: center;
+   gap:40px;
+   height:100px;
+   padding:40px;
+   font-family: "Poppins", sans-serif;
+
+   
+}
+.Navbar{
+    height: auto;
+    background-color: black;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.but{
+    height: 40px;
+    justify-content: center;
+    width: 80px;
+    height: 35px;
+    align-items: center;
+    text-align: center;
+    background-color:orange;
+    border: none;
+    
+}
+
+p{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}

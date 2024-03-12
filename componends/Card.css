@@ -1,0 +1,38 @@
+.Card {
+    height: 400x;
+    width: 250px;
+    border: 1px solid black;
+    /* border-radius: 3px; */
+    text-align: center;
+    /* justify-content: space-evenly; */
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    transition: transform 0.2s ease-in-out;
+    font-family: "Poppins", sans-serif;
+    
+  }
+  
+  .Card img {
+    max-width: 100%;
+    height: 250px;
+    /* border-radius: 2px; */
+  }
+  
+  .Card p {
+    margin: 2px;
+  }
+  
+  .Card button {
+    background-color:orange;
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .Card button:hover {
+    background-color: red;
+  }
